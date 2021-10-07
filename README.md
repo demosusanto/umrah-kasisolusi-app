@@ -1,8 +1,4 @@
-- ReactJS Movies
-
 Starter project for a ReactJS Movies
-
-- Prerequisites
 
 - [Node.js and npm](nodejs.org) Node 10.15.2, npm 6.4.1
 
@@ -22,7 +18,10 @@ Starter project for a ReactJS Movies
 
 Cara Install
 
+```sh
 $ git clone from https://github.com/demosusanto/reactjs-movies.git
-$ C:\React\reactjs-movies
+$ cd React
+$ cd reactjs-movies
 $ npm install
 $ npm start
+```
