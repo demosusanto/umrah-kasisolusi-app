@@ -5,7 +5,7 @@ class Footer extends Component {
     return (
       <div className="footer">
         <div className="footer-text">
-          <span>© MoviesKu, 2021.</span>
+          <span>© 2024 Kasiumrah Part of Kasisolusi (PT. Kasisolusi Usaha Indonesia)</span>
         </div>
       </div>
     );

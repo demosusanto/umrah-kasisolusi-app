@@ -7,15 +7,15 @@ import "../../assets/css/bootstrap.min.css";
 import "../../assets/css/react-sidemenu.min.css";
 import "../../assets/css/App.css";
 
-import Header from "./Header";
-import MenuLeft from "./MenuLeft";
+// import Header from "./Header";
+// import MenuLeft from "./MenuLeft";
 import Footer from "./Footer";
 
-import Movie from "../Movie";
 import About from "../About";
-import SubAbout from "../SubAbout";
+import Umrah from "../Umrah";
+// import SubAbout from "../SubAbout";
 import NoMatch from "../404_inner";
-import Setting from "../Setting";
+// import Setting from "../Setting";
 
 import { AuthActions } from "../../redux/actions/AuthAction";
 import { Router as BrowserRouter, Switch, Route } from "react-router-dom";
@@ -35,11 +35,12 @@ class Layout extends Component {
       // styles={{ sidebar: { background: "white" } }}
       >
         <div className="wrapper ">
-          <Header />
+          {/* <Header /> */}
           <div className="content">
             <Switch>
-              <Route exact path={"/"} component={Movie} />
-              <Route exact path={"/movie"} component={Movie} />
+              <Route exact path={"/"} component={Umrah} />
+              <Route exact path={"/umrah"} component={Umrah} />
+              <Route exact path={"/about"} component={About} />
               <Route component={NoMatch} />
             </Switch>
             <div style={{ clear: "both" }}></div>

@@ -3,7 +3,8 @@ import httpBuildQuery from "http-build-query";
 export const Header = function (data = "") {
   // your custom header here
   return {
-    "Content-Type": "application/x-www-form-urlencoded",
+    // "Content-Type": "application/x-www-form-urlencoded",
+    "Content-Type": "application/json",
   };
 };
 
@@ -12,6 +13,7 @@ export const jsonToQueryString = function (json) {
 };
 
 export const CONSTANT = {
+  KEY_API_URL: "eFyj0Ksh5F9!GKYBnov#mVgts-L_D5U5qeud8#BHaFg9KVh6ybXD-ZsLocIh#W3L",
   KEY_ISLOGIN: "islogin",
   KEY_AUTH_USERNAME: "auth_username",
   KEY_AUTH_PASSWORD: "auth_password",
@@ -35,4 +37,11 @@ export const CONSTANT = {
 
   KEY_HOME_EXCHANGE_RATE: "home_exchange_rate",
   KEY_MOVIES_GET_ALL: "MOVIES_GET_ALL",
+  KEY_GSHEET_SUBMIT: "GSHEET_SUMBIT",
+  KEY_GSHEET_TOOGLE: "GSHEET_TOOGLE",
+  API_SUCCESS: '200',
+  API_ERROR_STRING: '01',
+  API_ERROR_ARRAY: '02',
+  API_ERROR_FIELD: '010',
+  KEY_ALERT_TIMEOUT: 5000,
 };

@@ -35,7 +35,9 @@ class App extends Component {
           <BrowserRouter history={history} basename={"/"} >
                 <div>
                 <Switch>
-                  <Route  component={(this.props.isLoggedIn || localStorage.getItem(CONSTANT.KEY_ISLOGIN) === "true") ? Layout : Login} />
+                  
+                <Route  component={Layout} />
+                  {/* <Route  component={(this.props.isLoggedIn || localStorage.getItem(CONSTANT.KEY_ISLOGIN) === "true") ? Layout : Login} /> */}
                 </Switch>
                 </div>
           </BrowserRouter>

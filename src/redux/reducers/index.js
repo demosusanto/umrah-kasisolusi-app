@@ -3,7 +3,7 @@ import auth from "./AuthReducer";
 import menu from "./MenuReducer";
 import loader from "./LoaderReducer";
 import alert from "./AlertReducer";
-import movieReducer from "./MovieReducer";
+import umrahReducer from "./UmrahReducer";
 import language from "./LanguageReducer";
 
 const rootReducer = combineReducers({
@@ -11,7 +11,7 @@ const rootReducer = combineReducers({
   menu,
   loader,
   alert,
-  movieReducer,
+  umrahReducer,
   language,
 });
 
